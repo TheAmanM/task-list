@@ -1,0 +1,42 @@
+.card {
+    padding: 1rem 1.5rem;
+    margin: 0.5rem 1rem;
+    background-color: white;
+    border-radius: 10px;
+
+    display: inline-flex;
+
+    align-items: center;
+    justify-content: flex-start;
+
+    /* position: relative; */
+
+}
+
+.icon {
+    width: 1.5rem;
+    height: 1.5rem;
+
+    position: absolute;
+    left: 50%;
+    top: 50%;
+    transform: translate(-50%, -50%);
+}
+
+.text {
+    padding-left: 1.5rem;
+}
+
+.circle {
+    width: 3rem;
+    height: 3rem;
+
+    position: relative;
+
+    background-color: blueviolet;
+    border-radius: 50%;
+}
+
+h2, p {
+    color: rgb(33,37,60);
+}
